@@ -1,0 +1,86 @@
+* {
+  margin:0 !important;
+  padding:0 !important;
+}
+
+@font-face {
+  font-family: Airbnb Cereal App;
+  src: url(../font/airbnb/AirbnbCereal_W_Bk.otf);
+}
+
+/* .font-airbnb {
+  font-family: 'Airbnb Cereal App';
+} */
+
+body {
+  font-family: 'Airbnb Cereal App' !important;
+}
+
+/* Login */
+.bg-img {
+  background-image: url("../image/bg_rawMaterial.svg") !important;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-yellow {
+  background-color: #EFC81A;
+}
+
+.text-yellow {
+  color: #EFC81A;
+}
+
+.btn-yellow {
+  background-color: #EFC81A !important;
+  color: #FFFFFF !important;
+  border-color: #EFC81A !important;
+}
+
+.btn-yellow:hover {
+  background-color: gold !important;
+  border-color: gold !important;
+}
+
+.btn-yellow:active {
+  background-color: #ffc107 !important;
+  border-color: #ffc107 !important;
+}
+
+.btn-yellow:focus {
+  background-color: gold;
+  border-color: gold;
+}
+
+.form-check-input[type='checkbox']:checked {
+  background-color: #EFC81A;
+  border-color: #EFC81A;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.fs-7 {
+  font-size: 0.8rem;
+}
+
+/* Landing Page */
+.text-blue {
+  color: #2E266F;
+}
+
+
+
+.size-popular {
+  width : 353px;
+  height: 353px;
+}
+
+.ms-6 {
+  margin-left: 6rem !important;
+}
+
+.mt-6 {
+  margin-top: 5rem !important;
+}
